@@ -1,0 +1,127 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+
+# Specific to this folder location
+src/fine-tune-ollama/.venv/
+src/fine-tune-ollama/output/
+
+# Universal fallback (highly recommended)
+**/.venv/
+**/output/
+
+
+# Distribution / packaging
+*/.venv
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before launching pyinstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.toml
+.cache
+.pytest_cache/
+.noscript/
+.noserc
+.shiny/
+.hypothesis/
+.run/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#1188, it is a recommended practice to gitignore and not commit Pipfile.lock in development applications, but NOT in standalone applications.
+#Pipfile.lock
+
+# poetry
+#   Using Poetry, it is generally recommended to include poetry.lock in your repository.
+#   But if you really want to ignore it:
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock / poetry.lock, those should be committed in applications
+#   but gitignored in libraries
+#pdm.lock
+.pdm-plugins/
+
+# PEP 582 project packages
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyder-py3
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
